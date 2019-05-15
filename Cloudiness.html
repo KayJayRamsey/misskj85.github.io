@@ -2,34 +2,42 @@
 <html lang="en-us">
 
 <head>
+
   <meta charset="UTF-8">
   <title>Latitude</title>
+
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="style.css">
+
   <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+
 </head>
 <!-- Nav Bar  -->
 
 <body>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <nav class="navbar navbar-expand-md navbar-dark navbar-full" style="background-color: rgb(174, 0, 255)">
-    <a href="index.html">
-      <span class="navbar-brand mb-0 h1 pointer">LATITUDE ANALYSIS</span></a>
+    <span class="navbar-brand mb-0 h1">LATITUDE ANALYSIS</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <span class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <a class="nav-link" href="Data.html">Data <span class="sr-only">(current)</span></a>
@@ -42,43 +50,40 @@
             Plots
           </a>
           <div class="dropdown-menu">
-            <a class="dropdown-item " href="Maxtemperature.html">Max Temperature</a>
+            <a class="dropdown-item" href="Maxtemperature.html">Max Temperature</a>
             <a class="dropdown-item" href="Humidity.html">Humidity</a>
             <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
             <a class="dropdown-item" href="Windspeed.html">Wind Speed</a>
           </div>
         </li>
       </ul>
-    </span>
+    </div>
   </nav>
+
+
+
+
+
   <!-- Create grid -->
   <div class="container my-container">
   </div>
+
   <!-- Row 1 -->
   <div class="row justify-content-around my-row">
-    <div class="col-md-8 col-sm-6 my-col">
-      <h1>Summary: Latitude vs. X </h1>
-      <hr style="border: 1px solid#9a5ba0;" />
-      <p> <img src="Image1.png" alt="Max Temperature Plot" style="width:190px;height:180px;margin-right:10px;">
-        This project was created to visualize and analyze the weather of multiple cities around the world based on their
-        distance from the Equator. </p>
 
-      <p>To perform this analysis, we had to pull data from the OpenWeatherMap API and created a dataset that included
-        over 500 cities. </p>
-      <p> After creating the dataset, we used Matplotlib to plot the results. These results included various comparisons
-        between weather and latitude.
-        This site displays the visualizations that were created as well as the data.
-      </p>
-      </a>              
-    </div>
-    <div class="col-md-4 col-sm-6 my-col ">
-      <h2>Visualizations</h2>
+    <div class="col-md-12 col-sm-12 my-col">
+
+
+      <h1>Cloudiness</h1>
+
       <hr style="border: 1px solid#9a5ba0;" />
-      <img src="Image1.png" alt="Max Temperature Plot" style="width:190px;height:180px;margin-right:10px;">
-      <img src="Image2.png" alt="Humidity Plot" style="width:190px;height:180px;margin-right:10px;">
-      <img src="Image3.png" alt="Cloudiness Plot" style="width:190px;height:180px;margin-right:10px;">
-      <img src="Image4.png" alt="Wind Speed Plot" style="width:190px;height:180px;margin-right:10px;">
-    </div>
+
+      <div class="img-with-text">
+        <img src="Image3.png" alt="Cloudiness Plot" />
+        <p>As you can see these two comparisons do not really make an impact. </p>
+      </div>
+
+
 </body>
 
 </html>

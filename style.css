@@ -1,0 +1,75 @@
+/* navbar */
+
+.navbar-brand {
+  background-color: rgb(246, 173, 250); 
+}
+
+
+.pointer {
+cursor: url(http://cur.cursors-4u.net/nature/nat-2/nat101.cur), auto !important;
+}
+/* change the background color */
+.navbar-custom {
+  background-color: #de74e7;
+}
+
+/* My Grid Setup */
+
+body {
+margin:0; padding:0px; box-sizing:border-box;
+border: 1px solid transparent;
+}
+
+
+
+.my-row {
+     
+         height: 600px;
+         padding: 70px; 
+         background-color: rgb(255, 253, 255);
+}
+
+/* Where text go */
+.my-col {
+    
+    background-color: rgb(244, 225, 245);
+    padding: 50px;
+
+}
+
+  
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+
+img {
+  float: left;
+}
+
+.img-with-text {
+  text-align: justify;
+  width: [550px];
+}
+
+.img-with-text img {
+  display: block;
+  margin: 0 auto;
+}
